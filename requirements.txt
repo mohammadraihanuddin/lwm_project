@@ -1,0 +1,10 @@
+torch>=2.0.0
+torchvision>=0.15.0
+scikit-learn>=1.0.0
+numpy>=1.21.0,<2.4.0
+matplotlib>=3.4
+seaborn>=0.11.0
+tqdm>=4.62.0
+numba>=0.59.0
+scipy>=1.8.0
+h5py>=3.8.0

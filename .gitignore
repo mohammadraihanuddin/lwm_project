@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.idea/
+.vscode/
+
+# Project artifacts
+outputs/
+checkpoints/
+logs/
+*.log
+*.out
+
+# Large local assets (kept out of git by default)
+datasets/
+experts/
+*.pth
+*.pt
+*.npz
+
+# Keep empty dataset folder placeholders in git
+!datasets/
+!datasets/.gitkeep
+!datasets/spectrograms_ieee/
+!datasets/spectrograms_ieee/.gitkeep
+!datasets/spectrograms_realworld_iq/
+!datasets/spectrograms_realworld_iq/.gitkeep
+
+# Local spectrogram trees (not committed; use conversion scripts + official downloads)
+datasets/spectrograms_ieee/city_ieee_dataport/
+datasets/spectrograms_realworld_iq/city_realworld_iq/
+
+# OS files
+.DS_Store
+Thumbs.db
