@@ -58,8 +58,8 @@ Expected expert checkpoints:
 - `experts/5G_expert.pth`
 
 Expected spectrogram datasets:
-- `datasets/spectrograms_ieee/ieee_dataport/...`
-- `datasets/spectrograms_realworld_iq/realworld_iq/...`
+- `datasets/spectrograms_ieee/city_ieee_dataport/...`
+- `datasets/spectrograms_realworld_iq/city_realworld_iq/...`
 
 ## Raw IQ -> Spectrogram Conversion
 
